@@ -9,3 +9,10 @@
 
 // DOCUMENT READY FUNCTION BELOW
 
+$(".shoot").click(function(){
+  let hand =$("#input").val()
+    $(".result").text(hand)
+});
+
+let computer=["rock","paper","scissors"]
+Math.random()
