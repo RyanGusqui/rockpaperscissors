@@ -7,12 +7,12 @@
 
 
 
-// DOCUMENT READY FUNCTION BELOW
+// DOsCUMENT READY FUNCTION BELOW
 
-$(".shoot").click(function(){
+$("#shoot").click(function(){
   let hand =$("#input").val()
-    $(".result").text(hand)
+    $("#userChoice").text(hand)
+
 });
 
-let computer=["rock","paper","scissors"]
-Math.random()
+let computer= Math.random()
