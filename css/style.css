@@ -1,9 +1,25 @@
 .row{
-  text-align:center;
-  
+text-align:center;
 }
 #choices{
-  display:flex;
-  justify-content:space-between;
-  
+display:flex;
+justify-content:space-between;  
+}
+#userChoice{
+font-family:fantasy;
+}
+#computerChoice{
+font-family:fantasy;
+}
+#result{
+font-family:fantasy;
+}
+h1{
+font-family:monospace;
+}
+h3{
+font-family:monospace;
+}
+h4{
+font-family:cursive;
 }
