@@ -50,7 +50,17 @@ else if (computer >=0.33 && computer<0.66 && hand==="rock"){
 else if (computer >=0.66 && computer<=0.99 && hand==="paper"){
     $("#result").text("You've been beaten")
 }
+else if (computer <=0.33 && hand ==="gun" ){
+    $("#result").text("The rock deflected the bullet right back into the barrel...*explosion sounds*(You lost)")
+}
+else if (computer >=0.33 && computer<0.66 && hand ==="gun" ){
+    $("#result").text("The paper was balled and put into the barrel jamming the gun...*explosion sounds*(You lost)")
+}
+else if (computer >=0.66 && computer<=0.99 && hand ==="gun" ){
+    $("#result").text("The scissors cut the gun in half and made it useless...*explosion sounds*(You lost)")
+}
 else {
 $("#result").text("this is somewhat case sensetive either that or put an actual answer!:]")
 }
+
 });
